@@ -1,0 +1,8 @@
+---
+Name: multiserver-backend
+---
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Core\Manifest\ResourceURLGenerator:
+    class: RevStrat\MultiServer\HashingResourceURLGenerator
+    properties:
+      NonceStyle: md5
