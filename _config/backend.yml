@@ -1,5 +1,6 @@
 ---
 Name: multiserver-backend
+After: coreresources
 ---
 SilverStripe\Core\Injector\Injector:
   SilverStripe\Core\Manifest\ResourceURLGenerator:
